@@ -65,6 +65,7 @@ class MainPage(webapp2.RequestHandler):
     
 
     bucket = '/' + bucket_name
+    #http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv
     filename = bucket + '/all_month.csv'
     self.tmp_filenames_to_clean_up = []
 
